@@ -134,7 +134,6 @@ public class MainActivity extends AppCompatActivity {
 
         minus.setOnClickListener(view -> {
             try {
-
                 subtraction = true;
                 addition = false;
                 division = false;
@@ -154,7 +153,6 @@ public class MainActivity extends AppCompatActivity {
 
         divide.setOnClickListener(view -> {
             try {
-
                 division = true;
                 subtraction = false;
                 addition = false;
@@ -247,6 +245,7 @@ public class MainActivity extends AppCompatActivity {
                 edit1.setText("Error");
             }
         });
+
         decimal.setOnClickListener(view -> edit1.setText(edit1.getText() + "."));
 
 
